@@ -120,7 +120,7 @@ class __TwigTemplate_c63a7b71ba3107aedc7c3587a63740b736912c8983fa2ff287dc65bda3f
                 $local_file = $this->getEnvironment()->findTemplate($asset_path);
                 $asset->set_path($local_file, true);
             }
-            $asset->add_assets_version('2');
+            $asset->add_assets_version('5');
         }
         $this->getEnvironment()->get_assets_bag()->add_script($asset);        // line 40
         $asset_file = "admin.js";
@@ -131,12 +131,16 @@ class __TwigTemplate_c63a7b71ba3107aedc7c3587a63740b736912c8983fa2ff287dc65bda3f
                 $local_file = $this->getEnvironment()->findTemplate($asset_path);
                 $asset->set_path($local_file, true);
             }
-            $asset->add_assets_version('2');
+            $asset->add_assets_version('5');
         }
         $this->getEnvironment()->get_assets_bag()->add_script($asset);        // line 41
         echo "
 ";
         // line 42
+        $previous_look_up_order = $this->env->getNamespaceLookUpOrder();
+        $this->env->setNamespaceLookUpOrder(array('phpbb_mediaembed', '__main__'));
+        $this->env->loadTemplate('@phpbb_mediaembed/event/acp_overall_footer_after.html')->display($context);
+        $this->env->setNamespaceLookUpOrder($previous_look_up_order);
         // line 43
         echo $this->getAttribute(($context["definition"] ?? null), "SCRIPTS", array());
         echo "
@@ -158,7 +162,7 @@ class __TwigTemplate_c63a7b71ba3107aedc7c3587a63740b736912c8983fa2ff287dc65bda3f
 
     public function getDebugInfo()
     {
-        return array (  141 => 43,  140 => 42,  137 => 41,  126 => 40,  115 => 39,  108 => 38,  100 => 37,  96 => 36,  80 => 25,  64 => 20,  60 => 18,  54 => 16,  49 => 15,  47 => 14,  44 => 13,  41 => 12,  36 => 11,  31 => 10,  29 => 9,  19 => 1,);
+        return array (  145 => 43,  140 => 42,  137 => 41,  126 => 40,  115 => 39,  108 => 38,  100 => 37,  96 => 36,  80 => 25,  64 => 20,  60 => 18,  54 => 16,  49 => 15,  47 => 14,  44 => 13,  41 => 12,  36 => 11,  31 => 10,  29 => 9,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */

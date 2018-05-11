@@ -1,4 +1,4 @@
 <?php exit; ?>
-1554827988
-579
-a:4:{s:32:"d02806c98648acbc3e4c04be69a4e244";a:1:{i:0;a:4:{s:10:"named_path";s:50:"ext/phpbb/viglink/language/en/info_acp_viglink.php";s:8:"ext_name";s:13:"phpbb/viglink";s:4:"path";s:30:"ext/phpbb/viglink/language/en/";s:8:"filename";s:20:"info_acp_viglink.php";}}s:32:"4ebd2ba8c55128ea8e0cdeab003a10b2";a:1:{i:0;a:4:{s:10:"named_path";s:37:"language/en/acp/permissions_phpbb.php";s:8:"ext_name";s:1:"/";s:4:"path";s:16:"language/en/acp/";s:8:"filename";s:21:"permissions_phpbb.php";}}s:32:"fb8d6a9fce788c3bf9b5336bc52e31ae";a:0:{}s:32:"0d47a9bd48f85126d4a6de772998c56e";a:0:{}}
+1556745495
+587
+a:3:{s:32:"59b1c0a505392689531f329535e864c7";a:2:{i:0;a:4:{s:10:"named_path";s:56:"ext/phpbb/mediaembed/language/en/info_acp_mediaembed.php";s:8:"ext_name";s:16:"phpbb/mediaembed";s:4:"path";s:33:"ext/phpbb/mediaembed/language/en/";s:8:"filename";s:23:"info_acp_mediaembed.php";}i:1;a:4:{s:10:"named_path";s:50:"ext/phpbb/viglink/language/en/info_acp_viglink.php";s:8:"ext_name";s:13:"phpbb/viglink";s:4:"path";s:30:"ext/phpbb/viglink/language/en/";s:8:"filename";s:20:"info_acp_viglink.php";}}s:32:"342a54a82b502f02ad8bc72e7071b818";a:0:{}s:32:"8f804814ed6f24eb673f02e0812cbb04";a:0:{}}

@@ -148,7 +148,7 @@ class __TwigTemplate_5441565c415cd68d219058211afc7ec274edc96d9053c4a36893dcfbe05
                 $local_file = $this->getEnvironment()->findTemplate($asset_path);
                 $asset->set_path($local_file, true);
             }
-            $asset->add_assets_version('2');
+            $asset->add_assets_version('5');
         }
         $this->getEnvironment()->get_assets_bag()->add_script($asset);        // line 47
         $asset_file = "ajax.js";
@@ -159,7 +159,7 @@ class __TwigTemplate_5441565c415cd68d219058211afc7ec274edc96d9053c4a36893dcfbe05
                 $local_file = $this->getEnvironment()->findTemplate($asset_path);
                 $asset->set_path($local_file, true);
             }
-            $asset->add_assets_version('2');
+            $asset->add_assets_version('5');
         }
         $this->getEnvironment()->get_assets_bag()->add_script($asset);        // line 48
         if (($context["S_ALLOW_CDN"] ?? null)) {

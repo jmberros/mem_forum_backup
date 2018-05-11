@@ -51,7 +51,7 @@ class __TwigTemplate_6ef1ddf9a4a764c9de50d5bbc8a2e6d08ee9f1224a22df901b7dd5e925d
                 $local_file = $this->getEnvironment()->findTemplate($asset_path);
                 $asset->set_path($local_file, true);
             }
-            $asset->add_assets_version('2');
+            $asset->add_assets_version('5');
         }
         $this->getEnvironment()->get_assets_bag()->add_stylesheet($asset);    }
 
